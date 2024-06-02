@@ -1,0 +1,41 @@
+.conjunto{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.biografia{
+    padding: 20px;
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+.biografia p{
+    font-size: 15px;
+    text-align: justify;   
+    text-indent: 10px;
+    font-weight: 600;
+}
+
+.biografia ul{
+    display: flex;
+    padding: 10px;
+}
+
+.biografia ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.foto-perfil{
+    max-width: 415px;
+    max-height: 415px;
+    padding: 20px;
+}
+
+.foto-perfil img{
+    width: 415px;
+    height: 415px;
+    border-radius: 15px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 22px black;
+}
