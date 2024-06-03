@@ -1,7 +1,7 @@
 .conjunto{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
 }
 
 .biografia{
@@ -10,10 +10,10 @@
     flex-wrap: wrap;
 }
 .biografia p{
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;   
     text-indent: 10px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .biografia ul{
@@ -23,19 +23,28 @@
 
 .biografia ul li{
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .foto-perfil{
-    max-width: 415px;
-    max-height: 415px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .foto-perfil img{
-    width: 415px;
-    height: 415px;
     border-radius: 15px;
     border: solid 2px black;
     box-shadow: 5px 5px 22px black;
+}
+
+@media (max-width: 1000px){ 
+
+    .biografia h1{
+        font-size: 20px;
+    }
+    .biografia p {
+        font-size: 15px;
+    }
+    .biografia ul li{
+        font-size: 20px;
+    }
 }
